@@ -1,0 +1,52 @@
+//                       _ _
+// ___ _ _ _ _ _ _ _____|_| |_ _
+//| -_| | | | | | |     | | | | |
+//|___|_____|_____|_|_|_|_|_|_  |
+//                          |___|
+
+// barwide settings
+* {
+all: unset;
+font-size: 14px;
+font-weight: 600;
+}
+
+
+// bar
+.bar {
+    background-color: #1D1A10 ;
+    color: #fcf6e8;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+
+// volume slider
+.metric scale trough highlight {
+    all: unset;
+    background-color: #FF6200;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.metric scale trough {
+    all: unset;
+    background-color: #574241;
+    border-radius: 50px;
+    min-height: 3px;
+    min-width: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+// sound button
+.soundbutton {
+    color: #ffffff;
+}
+
+
+// powermenu
+.powermenu {
+    color: #fcf6e8;
+}
