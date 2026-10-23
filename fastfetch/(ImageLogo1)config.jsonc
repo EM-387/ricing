@@ -1,10 +1,10 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
  "logo": {
-    "source": "~/Pictures/Icons/rei.png",
+    "source": "~/path/to/image",
     "type": "kitty",
     "width": 30,
-//    "height": 20,
+//    "height":,
     "padding": {
       "top": 3,
       "left": 1,
