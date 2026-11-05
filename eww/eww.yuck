@@ -1,11 +1,20 @@
-;                       _ _
-; ___ _ _ _ _ _ _ _____|_| |_ _
-;| -_| | | | | | |     | | | | |
-;|___|_____|_____|_|_|_|_|_|_  |
-;                          |___|
+;-------------------------------------------------
+;----------------------Notes----------------------
+;--My sound button is Cirno from Touhou-----------
+;--saying "baka" & has a fumo emoticon as the-----
+;--text. Both can be changed to whatever you------
+;--want by simply changing the audio file path----
+;--& the text in lines 54 and 55 respectively.----
+;-------------------------------------------------
+;--I have it set so that when the power menu is---
+;--opened it plays the buzzer sound from Poral 2.-
+;--This is simply an extra thing I added for fun--
+;--and can be altered by changing the path in-----
+;--line z, or completely removed.-----------------
+;-------------------------------------------------
 
 ;------------------------------------------
-;---------------bar defining---------------
+;---------------Bar defining---------------
 ;------------------------------------------
 
 (defwidget bar0 []
@@ -27,7 +36,7 @@
 ))
 
 ;---------------------------------------------
-;---------------widget defining---------------
+;---------------Widget defining---------------
 ;---------------------------------------------
 
 (defwidget powermenu[]
@@ -82,7 +91,8 @@
 ))
 
 ;--------------------------------------------------------------------
-;---------------whatever that thing is called defining---------------
+;---------------Whatever that thing is called defining---------------
+;---------------Includes the volume slider & the clock---------------
 ;--------------------------------------------------------------------
 
 (deflisten music :initial ""
@@ -96,7 +106,7 @@
 )
 
 ;---------------------------------------------
-;---------------window defining---------------
+;---------------Window defining---------------
 ;---------------------------------------------
 
 (defwindow bar0
