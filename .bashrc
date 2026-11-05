@@ -24,5 +24,5 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-alias fastfetch='/usr/bin/fastfetch -c ~/.config/fastfetch/config.jsonc'
+alias fastfetch='/usr/bin/fastfetch -c /path/to/config'
 export PS1="\e[0;33m\\u@\\H\e[m:\e[0;33m\\w\e[m$"
