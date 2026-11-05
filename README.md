@@ -7,6 +7,8 @@ This repository contains my configuration files for the following:
 
 It also contains a folder with some of my saved wallpapers. None of them were created by me.
 
+I heavily recommend you to mess around and change the configurations to better suit your desktop. Things such as colour palette or refresh time for the clock and volume slider (these last two present in eww.yuck) have been set to my personal preferences, which you may not find appropriate.
+
 [^1]:[Eww repository](https://github.com/elkowar/eww)
 [^2]:[Fastfetch repository](https://github.com/fastfetch-cli/fastfetch)
 [^3]:[Sway repository](https://github.com/swaywm/sway)
